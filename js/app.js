@@ -38,3 +38,4 @@ function isOnScreen(element){
  
     return elementBottom > screenTop && elementTop < screenBottom;
 }
+

@@ -56,6 +56,7 @@
     font-size: 16pt;
     font-style: italic;
     margin-bottom: 0px;
+    letter-spacing: -0.7px;
 }
 .p-num-atendimento{
 	color: #DF0209;
@@ -479,10 +480,6 @@
 .img-interior-civic-mobile-2{
 	display: none;
 }
-
-
-
-
 
 
 /* Fim Mobile html*/

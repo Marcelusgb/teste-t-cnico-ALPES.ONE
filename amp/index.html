@@ -1,0 +1,557 @@
+<!DOCTYPE html>
+<html ⚡>
+  <head>
+    <meta charset="utf-8"/>
+    <meta property="og:locale" content="pt_BR" />
+    <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+    <link rel="canonical" href="../index.html">
+    <link rel="shortcut icon" href="img/favicon.png">
+    <title>Banzai</title>
+    <meta name="keywords" content="Civic, Honda, Banzai"/>        
+    <meta name="description" content="O novo Civic Geração 10 traz um design único mudando a categoria de sedãs para sempre."/>
+    <meta property='og:description' content='O novo Civic Geração 10 traz um design único mudando a categoria de sedãs para sempre. Ele garante a melhor dirigibilidade com o máximo em sofisticação e conforto, atribuído por seu design interno e diferenciada ergonomia.'/>
+  	<script type="application/ld+json">
+          {
+          "@context": "http://schema.org",
+          "@type": "NewsArticle",
+          "mainEntityOfPage":{
+             "@type":"WebPage",
+             "@id":"https://minhapagina.com.br/"
+          },
+          "headline": "Honda Banzai",
+          "image": {
+             "@type": "ImageObject",
+             "url": "https://minhapagina.com.br/img/logo.png",
+             "height": 800,
+             "width": 800
+          },
+          "datePublished": "2020-09-28T08:00:00+08:00",
+          "dateModified": "2020-09-28T09:20:00+08:00",
+          "author": {
+             "@type": "Person",
+             "name": "Marcelus"
+          },
+          "publisher": {
+             "@type": "Organization",
+             "name": "Honda Banzai",
+             "logo": {
+               "@type": "ImageObject",
+               "url": "https://minhapagina.com.br/img/logo.png",
+               "width": 600,
+               "height": 60
+             }
+          },
+          "description": "O novo Civic Geração 10 traz um design único mudando a categoria de sedãs para sempre."
+          }
+      </script>
+      <style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
+    <style amp-custom>
+
+      .container{
+        padding-left: 20px;
+        padding-right: 20px;
+      }
+      /* inicio navbar */
+      .navbar-cor{
+        background: #EEEEEE;
+        padding: 10px 0px 10px 0px;
+      }
+      .img-navbar{
+        background: url('../img/navbar-icons-grande.png')no-repeat;  
+      }
+      .home{
+        width: 30px;
+          height: 26px;
+          background-position: -10px -10px;
+      }
+      .local{
+        width: 30px;
+          height: 26px;
+          background-position: -55px -10px;
+      }
+      .carta{
+        width: 30px;
+        height: 26px;
+        background-position: -10px -51px;
+      }
+      .flex-item{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .tamanho-cons-menu{
+        width: 100px;
+      }
+      /* fim mavbar */
+
+      .img-logo{
+        display: flex;
+        justify-content: center;
+        padding-top: 40px;
+      }
+      .p-atendimento{
+        color: #727B7A;
+        font-size: 16pt;
+        font-style: italic;
+        margin-bottom: 0px;
+        letter-spacing: -0.7px;
+        padding-top: 20px;
+      }
+      .p-num-atendimento{
+        color: #DF0209;
+        font-size: 24pt;
+        font-style: italic;
+        margin-top: 7px;
+      }
+      .flex-clum-center{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+      }
+      .h1{
+        text-align: center;
+        font-style: italic;
+        font-size: 18pt;
+        padding-top: 20px;
+      }
+      .h2-onovo{
+        font-size: 13pt;
+        text-align: center;
+        font-weight: 100;
+      }
+
+      /* inicio modal solicite contato */
+
+      .modal-solicite-contato{
+        width: 250px;
+        background: #EEEEEE 0% 0% no-repeat padding-box;
+        box-shadow: 0px 0px 5px #00000029;
+        border-radius: 4px;
+        padding: 20px;
+        display: flex;
+        justify-content: center;
+      }
+      .section-modal-solicte{
+        padding-top: 50px;
+      }
+      .form-control {
+        display: block;
+        width: 85%;
+        padding: .375rem .75rem;
+        font-size: 1rem;
+        line-height: 1.5;
+        border-radius: .25rem;
+        color: #00000061;
+        background-color: #EEEEEE;
+        border: 1px solid #C5C5C5;
+        border-radius: 4px;
+      }
+      .form-group {
+        margin-bottom: 1rem;
+      }
+      .nome-input{
+        background: url('../img/usuario.png') no-repeat  7px 7px;
+        padding-left:30px;
+      }
+      .email-input{
+        background: url('../img/carta.png') no-repeat  7px 7px;
+        padding-left:30px;
+      }
+      .fone-input{
+        background: url('../img/call.png') no-repeat  7px 7px;
+        padding-left:30px;
+      }
+      .horario-input{
+        background: url('../img/relogio.png') no-repeat  7px 7px;
+        padding-left:30px;
+      }
+      .unidade-input{
+        background: url('../img/local.png') no-repeat  7px 7px;
+        padding-left:30px;
+      }
+      .flex-clum-center-2{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+      }
+      .flex-item-2{
+        display: flex;
+        align-items: center;
+      }
+
+      .p-solicitar-modal{
+        font-size: 12pt;
+        padding-top: 15px;
+        padding-left: 10px;
+      }
+      .span-modal-contato{
+        color: #DF0209;
+        font-size: 22px;
+      }
+      .btn-agendar-test-drive{
+        background-color: #1CB72A;
+        color: white;
+        font: normal normal bold 14px/24px Roboto;
+        border: 1px solid #1CB72A;
+        border-radius: 4px;
+        width: 100%;
+        padding: 8px 0px 8px 0px;
+      }
+
+      /* fim modal solicite contato */
+     
+      /* Inicio Craoulsel */
+      .p-titulo-card-carousel {
+        font-size: 20pt;
+        font-style: italic;
+        padding-top: 10px;
+        margin-bottom: 0px;
+        text-align: center;
+      }
+      .p-descr-car-caroulsel {
+        text-align: center;
+        font-size: 12pt;
+      }
+      .section-caroulsel{
+        margin-top: -120px;
+      }
+
+
+
+      /* Fim Caroulsel */
+
+
+      /* Inicio interio carro*/
+
+      .interior-texto{
+        position: relative;
+        top: -180px;
+      }
+      .h2-interior{
+        font-size: 18pt;
+        font-weight: 100;
+        text-align: center;
+        color: white;
+        font-style: italic;
+      }
+      .p-interior{
+        text-align: center;
+        color: white;
+        margin-top: 2px;
+      }
+
+      /* fim interio carro */
+
+
+
+      /* Inicio Card Carros modelos */
+
+      .card-modelos-carros{
+        border: 2px solid #D5D5D5;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        text-align: center;
+        margin: 20px;
+        background-color: white;
+      }
+      .baixo-seta{
+        top: -75px;
+      }
+      .h2-card-mais-modelos{
+        font-size: 18pt;
+        font-style: italic;
+        text-align: center;
+      }
+      .p-card-mais-modelos{
+        font-size: 14pt;
+        text-align: center;
+      }
+      .p-bnt-mais-carros{
+        border: 1px solid #D5D5D5;
+        border-radius: 4px;
+        padding: 10px;
+        text-align: center;
+      }
+      .btn-conheca{
+        color: black;
+        text-decoration: none;
+      }
+
+      /*  Fim Card Carros modelos*/
+
+
+
+      /* foooter inicio */
+      .section-footer{
+        background: #EEEEEE;
+        padding: 30px 0px 30px 0px;
+      }
+      .p-atendimento-footer{
+        color: #727B7A;
+        font-size: 14pt;
+        font-style: italic;
+        margin-bottom: 0px;
+      }
+      .p-num-atendimento-footer{
+        color: #DF0209;
+        font-size: 22pt;
+        font-style: italic;
+        margin-top: 5px;
+      }
+      .p-encontre-footer{
+        font-size: 12pt;
+        text-align: left;
+      }
+      .span-footer{
+        color: #DF0209;
+        font-size: 18pt;
+      }
+      .footer-card{
+        background: #FFFFFF 0% 0% no-repeat padding-box;
+        border: 1px solid #DF0209;
+        border-radius: 5px;
+        padding: 15px 15px 0px 15px;
+        text-align: center;
+        margin: 10px;
+      }
+      .espaco-entre-redes-sociais{
+        margin: 15px
+      }
+      .p-siga-footer{
+        padding-top: 10px;
+        font-size: 18pt;
+        font-style: italic;
+        text-align: center;
+      }
+      .section-footer-2{
+        padding-top: 20px;
+        padding-bottom: 20px;
+      }
+      .p-juntos {
+        color: #707070;
+        margin-bottom: 0px;
+        font-size: 14px;
+        padding-right: 10px;
+      }
+      /* fim footer */
+
+    </style>
+    <script async src="https://cdn.ampproject.org/v0.js"></script>
+    <script async custom-element="amp-form" src="https://cdn.ampproject.org/v0/amp-form-0.1.js"></script>
+    <script async custom-element="amp-sidebar" src="https://cdn.ampproject.org/v0/amp-sidebar-0.1.js"></script>
+    <script async custom-element="amp-accordion" src="https://cdn.ampproject.org/v0/amp-accordion-0.1.js"></script>
+    <script async custom-element="amp-lightbox" src="https://cdn.ampproject.org/v0/amp-lightbox-0.1.js"></script>
+    <script async custom-element="amp-carousel" src="https://cdn.ampproject.org/v0/amp-carousel-0.1.js"></script>
+    <script async custom-element="amp-fit-text" src="https://cdn.ampproject.org/v0/amp-fit-text-0.1.js"></script>
+    <script async custom-element="amp-selector" src="https://cdn.ampproject.org/v0/amp-selector-0.1.js"></script>
+    <script async custom-element="amp-bind" src="https://cdn.ampproject.org/v0/amp-bind-0.1.js"></script>
+    <script async custom-element="amp-lightbox-gallery" src="https://cdn.ampproject.org/v0/amp-lightbox-gallery-0.1.js"></script>
+
+  </head>
+  <body>
+    <nav class="navbar-cor">
+      <div class="flex-item">
+        <div class="tamanho-cons-menu flex-item">
+          <a href="">
+            <div class="img-navbar home"></div>
+          </a>
+        </div>
+        <div class="tamanho-cons-menu flex-item">
+          <a href="">
+            <div class="img-navbar local"></div>
+          </a>
+        </div>
+        <div class="tamanho-cons-menu flex-item">
+          <a href="">
+            <div class="img-navbar carta"></div>
+          </a>
+        </div>
+      </div>
+    </nav>
+    <article>
+      <section>
+        <div class="img-logo">
+          <amp-img src="../img/logo.png" alt="Logo Honda Banzai" width="200" height="52"></amp-img>
+        </div>
+        <div class="flex-clum-center">
+          <p class="p-atendimento">CENTRAL DE ATENDIMENTO</p>
+          <p class="p-num-atendimento">(31) 3123-1234</p>
+        </div>
+      </section>
+      <section>
+        <div class="flex-item">
+          <amp-img src="../img/Civic_EXL_2017_3_4_Lado_A_Preto_72dpi.png" alt="Civic 2017 lado preto" width="320" height="190"></amp-img>
+        </div>
+        <div class="flex-item">
+          <amp-img src="../img/logo-civic-10.png" alt="Logo Civic 10 gerções" width="320" height="20"></amp-img>
+        </div>
+      </section>
+      <section class="flex-item section-modal-solicte">
+        <div class="container">
+          <div class="modal-solicite-contato flex-clum-center-2 ">
+            <div class="flex-item-2">
+              <amp-img src="../img/solicitar-contato.png" alt="icone de telefone" width="39" height="39"></amp-img>
+              <p class="p-solicitar-modal">Solicitar um<br><span class="span-modal-contato">CONTATO</span></p>
+            </div>
+            <form method="post"
+                action-xhr="https://example.com/subscribe"    target="_top">
+              <div class="form-group">
+                <input type="text" class="form-control nome-input" name="nome" placeholder="Nome">
+              </div>
+              <div class="form-group">
+                <input type="text" class="form-control email-input" name="email" placeholder="Email">
+              </div>
+              <div class="form-group">
+                <input type="text" class="form-control fone-input" name="fone" placeholder="Telefone">
+              </div>
+              <!-- select-->
+              <div class="form-group">
+                <input type="text" class="form-control horario-input" name="Escolha o horário" placeholder="Escolha o horário">
+              </div>
+              <div class="form-group">
+                <input type="text" class="form-control unidade-input" name="Escolha a unidade" placeholder="Escolha a unidade">
+              </div>
+               <!-- select-->
+              <div class="form-group">
+                <button type="submit" class="btn-agendar-test-drive" name="envia_contato">AGENDAR TEST DRIVE</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="flex-item container">
+          <h1 class="h1">A EMOÇÃO DE DIRIGIR LEVA VOCÊ MAIS LONGE</h1>
+        </div>
+        <div class="container flex-item">
+          <amp-img src="../img/civic-frente.png" alt="Frente do civic" width="320" height="100"></amp-img>
+        </div>
+        <div class="container flex-item">
+          <h2 class="h2-onovo">O novo Civic Geração 10 traz um design único mudando a categoria de sedãs para sempre. Ele garante a melhor dirigibilidade com o máximo em sofisticação e conforto, atribuído por seu design interno e diferenciada ergonomia.</h2>
+        </div>
+      </section>
+      <section>
+        <div class="flex-item">
+          <amp-img src="../img/interior-civic-frontal.png" alt="Interior civic" width="426" height="415"></amp-img>
+        </div>
+        <div class="container interior-texto flex-clum-center">
+          <h2 class="h2-interior">PREPARE-SE PARA ALGO REALMENTE NOVO</h2>
+          <p class="p-interior">O Novo Civic Geração 10 vem completo de série. Conheça a versão perfeita para você.</p>
+        </div>
+      </section>
+      <section class="section-caroulsel">
+        <div class="container">
+          <amp-carousel controls class="carousel1"
+            layout="responsive"
+            height="700"
+            width="500"
+            type="slides"
+            [slide]="selectedSlide"
+            on="slideChange:AMP.setState({ selectedSlide: event.index })">
+            <div class="slide">
+              <amp-img src="../img/DIRECAO_ELETRICA.png" layout="responsive" width="323" height="223" alt="Border Collie"></amp-img>
+              <amp-fit-text layout="responsive" width="500" height="300">
+                <p class="p-titulo-card-carousel">Direção com Assistência</p>
+                <p class="p-descr-car-caroulsel">Sistema de estabilidade que reforça automaticamente o retorno da direção, auxiliando o motorista em situações onde o carro está ameaçado de instabilidade.</p> 
+              </amp-fit-text>
+            </div>
+
+            <div class="slide">
+              <amp-img src="../img/VIDROS_ELETRICOS.png" layout="responsive" width="323" height="223" alt="Shetland Sheepdog"></amp-img>
+              <amp-fit-text layout="responsive" width="500" height="300">
+                <p class="p-titulo-card-carousel">Vidros elétricos com subida automática</p>
+                <p class="p-descr-car-caroulsel">Todas as portas possuem vidros elétricos com a função “um toque” e sistema de segurança antiesmagamento.</p>
+              </amp-fit-text>
+            </div>
+
+            <div class="slide">
+              <amp-img src="../img/CAMBIO_AUTOMATICO.png" layout="responsive" width="323" height="223" alt="Hovawart"></amp-img>
+              <amp-fit-text layout="responsive" width="500" height="300">
+                <p class="p-titulo-card-carousel">Câmbio CVT com Paddle Shift </p>
+                <p class="p-descr-car-caroulsel">O câmbio com transmissão CVT de 7 velocidade com Paddle Shift (aletas) proporciona conforto ao trocar de marchas.</p>
+              </amp-fit-text>
+            </div>
+          </amp-carousel>
+          <div class="flex-item">
+            <p>slide: <span [text]="+selectedSlide + 1">1</span>/3</p>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="container">
+          <h2 class="h2-card-mais-modelos">PRONTO PARA TER UM HONDA?</h2>
+          <p class="p-card-mais-modelos">Conheça os últimos grandes lançamentos da honda.</p>
+        </div>
+        <amp-accordion>
+          <section class="">
+            <h4 class="card-modelos-carros flex-item">
+              <amp-img src="../img/accord.png" alt="Carro Accord" width="211" height="179"></amp-img>
+              <amp-img src="../img/baixo.png" alt="seta apontada para baixo" width="20" height="12" class="baixo-seta"></amp-img>
+            </h4>
+            <div class="">
+              <div class="card-modelos-carros flex-item">
+                <amp-img src="../img/city.png" alt="Carro City" width="211" height="179"></amp-img>
+              </div>
+              <div class="card-modelos-carros flex-item">
+                <amp-img src="../img/fit_2018.png" alt="Carro Fit" width="211" height="179"></amp-img>
+              </div>
+            </div>
+          </section>  
+        </amp-accordion>
+        <div class="container">
+          <p class="p-bnt-mais-carros">
+            <a href="#" class="btn-conheca">CONHEÇA MAIS</a>
+          </p>
+        </div>
+      </section>
+    </article>
+    <footer>
+      <section class="section-footer">
+        <div class="flex-item">
+          <div class="footer-card flex-item">
+            <amp-img src="../img/local.png" alt="local" width="30" height="40"></amp-img>
+            <div>
+              <p class="p-encontre-footer">Encontre uma<br><span class="span-footer">CONCESSIONÁRIA</span></p>
+            </div>
+          </div>
+        </div>
+        <div class="flex-clum-center ">
+          <div class="footer-card">
+            <p class="p-atendimento-footer">CENTRAL DE ATENDIMENTO</p>
+            <p class="p-num-atendimento-footer">(31) 3123-1234</p>
+          </div>
+        </div>
+        <div class="flex-item container">
+          <p class="p-siga-footer">SIGA A BANZAI NAS REDES SOCIAIS</p>
+        </div>
+        <div class="container flex-item">
+          <div class="espaco-entre-redes-sociais">
+            <a href="">
+              <amp-img src="../img/facebook.png" alt="facebook" width="40" height="40"></amp-img>
+            </a>
+          </div>
+          <div class=" spaco-entre-redes-sociais">
+            <a href="">
+              <amp-img src="../img/instagram.png" alt="instagram" width="40" height="40"></amp-img>
+            </a>
+          </div>
+          <div class="espaco-entre-redes-sociais">
+            <a href="">
+              <amp-img src="../img/twitter.png" alt="twitter"width="40" height="40"></amp-img>
+            </a>
+          </div>
+        </div>
+      </section>
+      <section class="section-footer-2">
+        <div class="flex-item container">
+          <amp-img src="../img/logo.png" alt="logo Honda BANZAI" width="110" height="30"></amp-img>
+        </div>
+        <div class="flex-item container">
+          <p class="p-juntos">Todos juntos fazem um trânsito melhor</p>
+          <amp-img src="../img/logo_ibama.png" alt="logo ibama" width="46" height="50"></amp-img>
+        </div>
+      </section>
+    </footer>
+  </body>
+</html>
